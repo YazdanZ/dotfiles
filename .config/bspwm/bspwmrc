@@ -22,3 +22,4 @@ bspc config gapless_monocle      false
 bspc config single_monocle true
 
 bspc rule -a firefox desktop='^2'
+bspc rule -a Rhythmbox desktop='^10' state=floating

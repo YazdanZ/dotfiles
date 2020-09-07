@@ -8,7 +8,7 @@ super + Return
 
 # program launcher
 super + @space
-	rofi -font "hack 11" -width 20 -lines 5 -combi-modi window,drun -show combi -modi window,drun -drun-display-format \{name\}
+	rofi -font "hack 11" -width 20 -lines 5 -combi-modi window,drun -show combi -modi window,drun -drun-display-format \{name\} 
 
 # make sxhkd reload its configuration files:
 super + Escape

@@ -85,8 +85,8 @@ The left of the bar displays workspaces configured in `$HOME/.config/bspwmrc`; i
 
 Workspaces can be in one of the following 3 states: <img align="right" src="https://github.com/Unixado/dotfiles/blob/master/.config/SetupScreenShots/PolybarWorkspaces.png"> 
   
-1. Empty (No windows open) - glyph on the left
-2. Occupied (One or more windows open) - glyph in the center
-3. Focused (Current open workspace) - glyph on the right
+1. Empty (No windows open) - left glyph
+2. Occupied (One or more windows open) - center glyph
+3. Focused (Current open workspace) - right glyph 
 
 Workspaces can only be in one state at a time. If a workspace is "Focused" and "Empty", it will have a "Focused" state. The same is also true for "Occupied" and "Focused" workspaces. 

@@ -121,7 +121,7 @@ The Keyboard layout is shown on the right of the bar, next to the battery indica
 
 #### Audio Volume indicator
 
-The audio volume is shown on the right of the bar, next to the keyboard layout indicator. It shows the volume of the device that is output by [ALSA](https://www.alsa-project.org/wiki/Main_Page) (Advanced Linux Sound Architecture). The indicator will turn Red when the system audio is muted. 
+The audio volume is shown on the right of the bar, next to the keyboard layout indicator. It shows the volume of the device that is output by [ALSA](https://www.alsa-project.org/wiki/Main_Page) (Advanced Linux Sound Architecture). The indicator will turn Red when the system audio is muted. Scrolling on the volume bar will increase/decrease the volume and clicking on the bar will mute/unmute the system audio.
 
 | ALSA Volume Indicator  | ALSA Muted Audio |
 | ------------- | ------------- |

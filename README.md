@@ -34,21 +34,23 @@ It could however not be could not be fully reproduced on macOs or Bsd systems.
 An initial minimal installation of the operating system is recommended. This means an installation without a desktop environment (such as Xfce, Gnome or Kde) as the window manager and the hotkey deamon might interfere with the desktop environment (another reason why [ricers](https://www.reddit.com/r/unixporn/wiki/themeing/dictionary#wiki_rice) use Arch BTW). 
 #### Program dependencies
 
-Windowing System : X11<br/>
-Window Manager : [Bspwm ](https://github.com/baskerville/bspwm)<br/>
-Hotkey daemon : [Sxhkd](https://wiki.archlinux.org/index.php/Sxhkd)<br/>
-Compositor : [Picom](https://github.com/yshui/picom)<br/>
-Top Bar : [Polybar](https://github.com/polybar/polybar)<br/>
-Terminal Emulator : [Kitty ](https://github.com/kovidgoyal/kitty)<br/>
-Shell : Zsh<br/>
-Music Player Server : [MPD](https://wiki.archlinux.org/index.php/Music_Player_Daemon)<br/>
-MPD client : [ncmpcpp](https://wiki.archlinux.org/index.php/Ncmpcpp)<br/>
-Lockscreen : [this](https://github.com/Unixado/betterlockscreen) fork of [betterlockscreen](https://github.com/pavanjadhaw/betterlockscreen)<br/>
-Wallpaper setter for X : [Nitrogen](https://wiki.archlinux.org/index.php/Nitrogen) and [feh](https://wiki.archlinux.org/index.php/feh)<br/>
-Dmenu replacement (Window switcher, application launcher, etc.) : [rofi](https://github.com/davatorium/rofi)<br/>
-Audio visualizer : [Glava](https://github.com/jarcode-foss/glava) <br/>
-Process Manager : Htop <br/>
-System information tool: [neofetch](https://github.com/dylanaraps/neofetch)
+| Role  | Program |
+| ------------- | ------------- |
+| Windowing System  | X11   |
+| Window Manager  | [Bspwm ](https://github.com/baskerville/bspwm)  |
+| Hotkey daemon | [Sxhkd](https://wiki.archlinux.org/index.php/Sxhkd)|
+|Compositor | [Picom](https://github.com/yshui/picom)|
+|Top Bar | [Polybar](https://github.com/polybar/polybar)|
+|Terminal Emulator | [Kitty ](https://github.com/kovidgoyal/kitty)|
+| Shell | Zsh|
+| Music Player Server | [MPD](https://wiki.archlinux.org/index.php/Music_Player_Daemon)|
+| MPD client | [ncmpcpp](https://wiki.archlinux.org/index.php/Ncmpcpp)|
+| Lockscreen | [this](https://github.com/Unixado/betterlockscreen) fork of [betterlockscreen](https://github.com/pavanjadhaw/betterlockscreen)|
+| Wallpaper setter for X | [Nitrogen](https://wiki.archlinux.org/index.php/Nitrogen) and [feh](https://wiki.archlinux.org/index.php/feh)|
+| Dmenu replacement (Window switcher, application launcher, etc.) | [rofi](https://github.com/davatorium/rofi)|
+| Audio visualizer | [Glava](https://github.com/jarcode-foss/glava)|
+| Process Manager | Htop|
+| System information tool | [neofetch](https://github.com/dylanaraps/neofetch)|
 
 #### Font dependencies
 
@@ -81,7 +83,7 @@ The top bar was configured in a minimal way to only contain essentials and be di
 
 #### Workspaces
 
-The left of the bar displays workspaces configured in `$HOME/.config/bspwmrc`; in our case 10 workspaces have been defined, each containing a set of window rules.<br/>
+The left of the bar displays workspaces configured in `$HOME/.config/bspwm/bspwmrc`; in our case 10 workspaces have been defined, each containing a set of window rules. The user can move to different workspaces by scrolling on the worspace section of the bar.<br/>
 
 Workspaces can be in one of the following 3 states: <img align="right" src="https://github.com/Unixado/dotfiles/blob/master/.config/SetupScreenShots/PolybarWorkspaces.png"> 
   
@@ -90,3 +92,18 @@ Workspaces can be in one of the following 3 states: <img align="right" src="http
 3. Focused (Current open workspace) - right glyph 
 
 Workspaces can only be in one state at a time. If a workspace is "Focused" and "Empty", it will have a "Focused" state. The same is also true for "Occupied" and "Focused" workspaces. 
+
+#### Window title
+
+The center of the bar displays the title of focused window. retrieve X window titles is done using [xtitle](https://github.com/baskerville/xtitle).<br/>
+For example, a Vim instance editing the `$HOME/.config/bspwm/bspwmrc`file will display the following:
+<p align="center">
+  <img src="https://github.com/Unixado/dotfiles/blob/master/.config/SetupScreenShots/Xtitle.png">
+</p>
+
+#### Time and Date
+
+The time and date is displayed on far right of the bar in a 24 hour `HH:MM` format and `YY/MM/DD` format respectively. They are seperated by a seperator for clarity.
+<p align="center">
+  <img src="https://github.com/Unixado/dotfiles/blob/master/.config/SetupScreenShots/TimeandDatePolybar.png">
+</p>

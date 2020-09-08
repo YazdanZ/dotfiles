@@ -1,4 +1,4 @@
-# dotfiles
+# .Dotfiles
 repository to manage and share my personal dotfiles 
 
 ## What are dotfiles? 
@@ -107,3 +107,22 @@ The time and date is displayed on far right of the bar in a 24 hour `HH:MM` form
 <p align="center">
   <img src="https://github.com/Unixado/dotfiles/blob/master/.config/SetupScreenShots/TimeandDatePolybar.png">
 </p>
+
+#### Battery 
+
+The battery percentage is showed on the right of the bar right next to the time and date. The text will be Green when the battery is in a "Charging" state. The text will have the same color as other bar texts when the battery is in "Full" or "Discharging" states.
+| Charging  | Discharging |
+| ------------- | ------------- |
+|<img align="center" src="https://github.com/Unixado/dotfiles/blob/master/.config/SetupScreenShots/PolybarBatteryCharging.png">|<img align="center" src="https://github.com/Unixado/dotfiles/blob/master/.config/SetupScreenShots/PolybarBatteryDischarging.png">
+
+#### Keyboard layout
+
+The Keyboard layout is shown on the right of the bar, next to the battery indicator and the volume indicator. A us keyboard layout will be shown as such: <img src="https://github.com/Unixado/dotfiles/blob/master/.config/SetupScreenShots/PolybarKeyboardLayout.png">
+
+#### Audio Volume indicator
+
+The audio volume is shown on the right of the bar, next to the keyboard layout indicator. It shows the volume of the device that is output by [ALSA](https://www.alsa-project.org/wiki/Main_Page). The indicator will turn Red when the system audio is muted. 
+
+| ALSA Volume Indicator  | ALSA Muted Audio |
+| ------------- | ------------- |
+|<img align="center" src="https://github.com/Unixado/dotfiles/blob/master/.config/SetupScreenShots/PolybarAudioVolume.png">|<img align="center" src="https://github.com/Unixado/dotfiles/blob/master/.config/SetupScreenShots/PolybarAudioVolumeMute.png">

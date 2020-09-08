@@ -34,21 +34,23 @@ It could however not be could not be fully reproduced on macOs or Bsd systems.
 An initial minimal installation of the operating system is recommended. This means an installation without a desktop environment (such as Xfce, Gnome or Kde) as the window manager and the hotkey deamon might interfere with the desktop environment (another reason why [ricers](https://www.reddit.com/r/unixporn/wiki/themeing/dictionary#wiki_rice) use Arch BTW). 
 #### Program dependencies
 
-Windowing System : X11<br/>
-Window Manager : [Bspwm ](https://github.com/baskerville/bspwm)<br/>
-Hotkey daemon : [Sxhkd](https://wiki.archlinux.org/index.php/Sxhkd)<br/>
-Compositor : [Picom](https://github.com/yshui/picom)<br/>
-Top Bar : [Polybar](https://github.com/polybar/polybar)<br/>
-Terminal Emulator : [Kitty ](https://github.com/kovidgoyal/kitty)<br/>
-Shell : Zsh<br/>
-Music Player Server : [MPD](https://wiki.archlinux.org/index.php/Music_Player_Daemon)<br/>
-MPD client : [ncmpcpp](https://wiki.archlinux.org/index.php/Ncmpcpp)<br/>
-Lockscreen : [this](https://github.com/Unixado/betterlockscreen) fork of [betterlockscreen](https://github.com/pavanjadhaw/betterlockscreen)<br/>
-Wallpaper setter for X : [Nitrogen](https://wiki.archlinux.org/index.php/Nitrogen) and [feh](https://wiki.archlinux.org/index.php/feh)<br/>
-Dmenu replacement (Window switcher, application launcher, etc.) : [rofi](https://github.com/davatorium/rofi)<br/>
-Audio visualizer : [Glava](https://github.com/jarcode-foss/glava) <br/>
-Process Manager : Htop <br/>
-System information tool: [neofetch](https://github.com/dylanaraps/neofetch)
+| Role  | Program |
+| ------------- | ------------- |
+| Windowing System  | X11   |
+| Window Manager  | [Bspwm ](https://github.com/baskerville/bspwm)  |
+| Hotkey daemon | [Sxhkd](https://wiki.archlinux.org/index.php/Sxhkd)|
+|Compositor | [Picom](https://github.com/yshui/picom)|
+|Top Bar | [Polybar](https://github.com/polybar/polybar)|
+|Terminal Emulator | [Kitty ](https://github.com/kovidgoyal/kitty)|
+| Shell | Zsh|
+| Music Player Server | [MPD](https://wiki.archlinux.org/index.php/Music_Player_Daemon)|
+| MPD client | [ncmpcpp](https://wiki.archlinux.org/index.php/Ncmpcpp)|
+| Lockscreen | [this](https://github.com/Unixado/betterlockscreen) fork of [betterlockscreen](https://github.com/pavanjadhaw/betterlockscreen)|
+| Wallpaper setter for X | [Nitrogen](https://wiki.archlinux.org/index.php/Nitrogen) and [feh](https://wiki.archlinux.org/index.php/feh)|
+| Dmenu replacement (Window switcher, application launcher, etc.) | [rofi](https://github.com/davatorium/rofi)|
+| Audio visualizer | [Glava](https://github.com/jarcode-foss/glava)|
+| Process Manager | Htop|
+| System information tool | [neofetch](https://github.com/dylanaraps/neofetch)|
 
 #### Font dependencies
 

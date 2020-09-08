@@ -67,3 +67,26 @@ Some fonts will need to be installed to achieve the same results as in the scree
 #### Icons 
 
 The [papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) icon theme is used in the screenshots. Feel free to choose any other Icon theme as there are no icon dependencies set in the dotfiles.
+
+## Features
+
+### Polybar 
+
+The top bar was configured in a minimal way to only contain essentials and be distraction free. 
+
+
+<p align="center">
+  <img src="https://github.com/Unixado/dotfiles/blob/master/.config/SetupScreenShots/PolybarScreenshot.png">
+</p>
+
+#### Workspaces
+
+The left of the bar displays workspaces configured in `$HOME/.config/bspwmrc`; in our case 10 workspaces have been defined, each containing a set of window rules.<br/>
+
+Workspaces can be in one of the following 3 states: <img align="right" src="https://github.com/Unixado/dotfiles/blob/master/.config/SetupScreenShots/PolybarWorkspaces.png"> 
+  
+1. Empty (No windows open) - left glyph
+2. Occupied (One or more windows open) - center glyph
+3. Focused (Current open workspace) - right glyph 
+
+Workspaces can only be in one state at a time. If a workspace is "Focused" and "Empty", it will have a "Focused" state. The same is also true for "Occupied" and "Focused" workspaces. 

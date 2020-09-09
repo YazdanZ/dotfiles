@@ -42,9 +42,10 @@ An initial minimal installation of the operating system is recommended. This mea
 
 | Role  | Program |
 | ------------- | ------------- |
-| Windowing System  | X11   |
+| Windowing System  | X11 ([Xorg](https://wiki.archlinux.org/index.php/Xorg)) |
 | Window Manager  | [Bspwm ](https://github.com/baskerville/bspwm)  |
 | Hotkey daemon | [Sxhkd](https://wiki.archlinux.org/index.php/Sxhkd)|
+|RandR | [xorg-xrandr](https://www.archlinux.org/packages/?name=xorg-xrandr)|
 |Compositor | [Picom](https://github.com/yshui/picom)|
 |Top Bar | [Polybar](https://github.com/polybar/polybar)|
 |Terminal Emulator | [Kitty ](https://github.com/kovidgoyal/kitty)|

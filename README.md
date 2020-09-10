@@ -156,5 +156,16 @@ The audio volume is shown on the right of the bar, next to the keyboard layout i
 | super + ctrl + x | set node flag to "locked" |
 | super + ctrl + y | set node flag to "sticky" |
 | super + ctrl + z | set node flag to "private" |
+| super + h | focus the node in the west direction |
+| super + l | focus the node in the east direction |
+| super + j | focus the node in the south direction |
+| super + k | focus the node in the north direction |
+| super + alt + 1 | lock the screen | 
+| super + alt + 2 | lock and suspend | 
+| super + alt + 3 | reboot | 
+| super + alt + 4 | poweroff | 
+| super + alt + s | take a screenshot using gnome-screenshot | 
+| super + alt + f | launch firefox | 
+| super + alt + m | launch rhythmbox | 
 
 

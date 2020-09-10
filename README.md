@@ -133,3 +133,28 @@ The audio volume is shown on the right of the bar, next to the keyboard layout i
 | ALSA Volume Indicator  | ALSA Muted Audio |
 | ------------- | ------------- |
 |<img align="center" src="https://github.com/Unixado/dotfiles/blob/master/.config/SetupScreenShots/PolybarAudioVolume.png">|<img align="center" src="https://github.com/Unixado/dotfiles/blob/master/.config/SetupScreenShots/PolybarAudioVolumeMute.png">
+
+### WM Keybinding  
+
+| Key Bindings  | Associated Action |
+| ------------- | ------------- |
+| super + return  | open terminal (kitty) |
+| super + space  | run rofi |
+| super + escape | reload sxhkd configuration files |
+| super + alt + q | logout of Xorg (return to TTY) |
+| super + alt + r | restart bspwm |
+| super + w | close focused window | 
+| super + shift + w | kill focused window |
+| super + m | switch between monocle and tiled layouts |
+| super + y | send the newest selected node to the newest preselected node|
+| super + g | swap the focused node with the biggest window | 
+| super + t | set window state to "tiled"|
+| super + shift + t | set window state to "semi tiled" |
+| super + s | set window state to "floating" |
+| super + f | set window state to "fullscreen" | 
+| super + ctrl + m | set node flag to "marked" | 
+| super + ctrl + x | set node flag to "locked" |
+| super + ctrl + y | set node flag to "sticky" |
+| super + ctrl + z | set node flag to "private" |
+
+

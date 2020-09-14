@@ -148,14 +148,14 @@ The audio volume is shown on the right of the bar, next to the keyboard layout i
 ### WM Keybinding  
 
 general:
-| Key Bindings  | Associated Action |
+| Key Binding  | Associated Action |
 | ------------- | ------------- |
 | super + return  | open terminal (kitty) |
 | super + space  | run rofi |
 | super + escape | reload sxhkd configuration files |
 
 bspwm:
-| Key Bindings  | Associated Action |
+| Key Binding  | Associated Action |
 | ------------- | ------------- |
 | super + alt + q | logout of Xorg (return to TTY) |
 | super + alt + r | restart bspwm |
@@ -178,7 +178,7 @@ States & Flags:
 | super + ctrl + z | set node flag to "private" |
 
 Focusing & Swapping: 
-| Key Bindings  | Associated Action |
+| Key Binding  | Associated Action |
 | ------------- | ------------- |
 | super + h | focus the node in the west direction |
 | super + l | focus the node in the east direction |
@@ -186,7 +186,7 @@ Focusing & Swapping:
 | super + k | focus the node in the north direction |
 
 Power: 
-| Key Bindings  | Associated Action |
+| Key Binding  | Associated Action |
 | ------------- | ------------- |
 | super + alt + 1 | lock the screen | 
 | super + alt + 2 | lock and suspend | 
@@ -194,7 +194,7 @@ Power:
 | super + alt + 4 | poweroff | 
 
 Applications: 
-| Key Bindings  | Associated Action |
+| Key Binding  | Associated Action |
 | ------------- | ------------- |
 | super + alt + s | take a screenshot using gnome-screenshot | 
 | super + alt + f | launch firefox | 

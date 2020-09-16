@@ -54,4 +54,5 @@ nitrogen --restore &
 polybar main &
 xsetroot -cursor_name left_ptr
 picom -f &
+mpd &
 exec bspwm

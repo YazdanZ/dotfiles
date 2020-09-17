@@ -187,6 +187,6 @@ super + alt + s
 
 # launch commonly used apps
 super + alt + {f,m}
-	{firefox,rhythmbox}
+	{firefox,ario}
 
 

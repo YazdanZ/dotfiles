@@ -1,4 +1,5 @@
 [colors]
+; define colors 
 background = #00000000
 background-alt = #00000000
 foreground = 2e3a40
@@ -8,92 +9,80 @@ secondary = #ffffff
 alert = #711a26
 
 [bar/topbar]
+; topbar positioning 
 width = 100%
 height = 25
-;offset-x = 10%
 radius = 0.0
 fixed-center = true
+border-size = 0
+padding-left = 0
+padding-right = 2
+module-margin-left = 1
+module-margin-right = 1
+tray-position = none
+tray-padding = 2
+wm-restack = bspwm
 
+; bar color
+border-color = #0D00564d
 background = ${colors.background}
 foreground = ${colors.foreground}
 
-
-border-size = 0
-border-color = #0D00564d
-
-padding-left = 0
-padding-right = 2
-
-module-margin-left = 1
-module-margin-right = 1
-
-
+; used fonts
 font-0 = Droid Sans Mono:style=Regular:pixelsize=11;2
 font-1 = Font Awesome 5 Brands Regular:style=Regular:pixelsize=12;2
-;font-1 = unifont:fontformat=truetype:size=14:antialias=false;2
 font-2 = siji:style=Regular:pixelsize=24;2
 font-3 = Font Awesome 5 Free:pixelsize=12;2
 font-4 = Font Awesome 5 Free Solid:pixelsize=12;2
 font-5 = Font Awesome 5 Brands:pixelsize=12;2
 
+; module positions
 modules-left = bspwm  
 modules-center = xwindow
-
 modules-right = alsa xkeyboard battery  date
 
-tray-position = none
-tray-padding = 2
-;tray-background = #0063ff
-
-wm-restack = bspwm
-
-;override-redirect = true
-
+; scrolling action on the topbar
 scroll-up = bspwm-desknext
 scroll-down = bspwm-deskprev
 
+; cursor shape when hovering and scrolling over bar icons
 cursor-click = pointer
 eursor-scroll = ns-resize
 
 [bar/bottombar]
+; bottombar positioning 
 bottom = true
 width = 100%
 height = 25
-;offset-x = 10%
 radius = 0.0
-fixed-center = true
-
-background = ${colors.background}
-foreground = ${colors.foreground}
-
-wm-restack = bspwm
-
-
 border-size = 0
-border-color = #0D00564d
-
 padding-left = 2
 padding-right = 2
-
 module-margin-left = 1
 module-margin-right = 1
+fixed-center = true
+tray-position = none
+tray-padding = 2
+wm-restack = bspwm
+
+; bar color
+background = ${colors.background}
+foreground = ${colors.foreground}
+border-color = #0D00564d
 
 
+; used fonts
 font-0 = Droid Sans Mono:style=Regular:pixelsize=11;2
 font-1 = Font Awesome 5 Brands Regular:style=Regular:pixelsize=12;2
-;font-1 = unifont:fontformat=truetype:size=14:antialias=false;2
 font-2 = siji:style=Regular:pixelsize=24;2
 font-3 = Font Awesome 5 Free:pixelsize=12;2
 font-4 = Font Awesome 5 Free Solid:pixelsize=12;2
 font-5 = Font Awesome 5 Brands:pixelsize=12;2
 
+; module positions
 modules-left = mpd
 
-tray-position = none
-tray-padding = 2
-;tray-background = #0063ff
-
-
+; cursor shape when hovering and scrolling over bar icons
 cursor-click = pointer
 eursor-scroll = ns-resize
 
@@ -104,11 +93,11 @@ format-padding = 4
 label = %title%
 label-maxlen = 50
 
-
 [module/xkeyboard]
 type = internal/xkeyboard
 blacklist-0 = caps lock
 blacklist-1 = num lock
+
 [module/bspwm]
 type = internal/bspwm
 label-focused-foreground = ffffff
@@ -117,20 +106,18 @@ label-focused-background = ${colors.background-alt}
 label-focused-underline= ${colors.primary}
 label-focused-padding = 2
 
+; set label properties
 label-occupied = %icon%
 label-occupied-padding = 2
 label-occupied-foreground = ffffff
 label-urgent = %icon%!
 label-urgent-background = ${colors.alert}
 label-urgent-padding = 2
-
 label-empty = 
 label-empty-foreground = ffffff
 label-empty-padding = 2
 
-; Separator in between workspaces
-; label-separator = |
-
+; set icons for workspace states
 ws-icon-0 = I;
 ws-icon-1 = II;
 ws-icon-2 = III;
@@ -144,10 +131,8 @@ ws-icon-9 = X;
 
 [module/xbacklight]
 type = internal/xbacklight
-
 format = <label> <bar>
 label = BL
-
 bar-width = 10
 bar-indicator = |
 bar-indicator-foreground = #fff
@@ -169,33 +154,17 @@ type = internal/date
 interval = 1
 date = %Y-%m-%d%
 time = %H:%M
-
 label = %date% | %time%
-
-[module/pulseaudio]
-type = internal/pulseaudio
-
 
 [module/alsa]
 type = internal/alsa
-
 format-volume = <bar-volume>
 format-volume-margin = 2.5
-label-muted = 
-label-muted-foreground = #5c2735
 
+
+; set alsa bar properties
 bar-volume-width = 10
 bar-volume-foreground-0 = #55aa55
-bar-volume-foreground-1 = #55aa55
-bar-volume-foreground-2 = #55aa55
-bar-volume-foreground-3 = #55aa55
-bar-volume-foreground-4 = #55aa55
-bar-volume-foreground-5 = #55aa55
-bar-volume-foreground-6 = #55aa55
-bar-volume-foreground-7 = #55aa55
-bar-volume-foreground-8 = #55aa55
-bar-volume-foreground-9 = #55aa55
-bar-volume-foreground-10 = #55aa55
 bar-volume-gradient = false
 bar-volume-indicator = 
 bar-volume-indicator-font = 2
@@ -203,13 +172,14 @@ bar-volume-fill = ─
 bar-volume-fill-font = 2
 bar-volume-empty = ─
 bar-volume-empty-font = 2
+label-muted = 
+label-muted-foreground = #5c2735
 
 [module/battery]
 type = internal/battery
 battery = BAT0
 adapter = ADP1
 full-at = 100
-
 format-charging = <label-charging>
 format-discharging = <label-discharging>
 format-full = <label-full>
@@ -217,21 +187,17 @@ label-charging-foreground = #097319
 
 [settings]
 screenchange-reload = true
-;compositing-background = xor
-;compositing-background = screen
-;compositing-foreground = source
-;compositing-border = over
-;pseudo-transparency = false
 
 [global/wm]
 margin-top = 5
 margin-bottom = 5
 
-; vim:ft=dosini
-
 [module/mpd]
 type = internal/mpd
-format-online = <icon-prev> <icon-stop> <toggle> <icon-next> <icon-random> <bar-progress> <icon-repeat> <label-time>  <label-song>
+format-online = <icon-prev> <icon-stop> <toggle> <icon-next>    <icon-repeat> <icon-random>  <bar-progress> <label-time>  <label-song>
+
+; icon and label colors
+; introduce cc for reduced opacity (aarrggbb)
 icon-play-foreground = ccffffff
 icon-pause-foreground = ccffffff
 icon-stop-foreground = ccffffff
@@ -239,7 +205,9 @@ icon-prev-foreground = ccffffff
 icon-next-foreground = ccffffff
 label-song-foreground = ccffffff
 label-time-foreground = ccffffff
-icon-repeat = 
+
+; mpd icons
+icon-repeat = 
 icon-play = 
 icon-pause = 
 icon-stop = 
@@ -247,9 +215,11 @@ icon-prev = 
 icon-next = 
 icon-random = 
 
+; toggle colors
 toggle-on-foreground = B3ffffff
 toggle-off-foreground = 4dffffff
 
+; mpd bar properties
 bar-progress-width = 22
 bar-progress-format = %{A4:mpdseek+2: A5:mpdseek-2:}%fill%%indicator%%empty%%{A A}
 bar-progress-indicator = 

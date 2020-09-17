@@ -62,7 +62,8 @@ An initial minimal installation of the operating system is recommended. This mea
 |Terminal Emulator | [Kitty ](https://github.com/kovidgoyal/kitty)|
 | Shell | Zsh|
 | Music Player Server | [MPD](https://wiki.archlinux.org/index.php/Music_Player_Daemon)|
-| MPD client | [ncmpcpp](https://wiki.archlinux.org/index.php/Ncmpcpp)|
+| MPD client (Cli) | [ncmpcpp](https://wiki.archlinux.org/index.php/Ncmpcpp)|
+| MPD client (Gui) | [Ario](https://www.archlinux.org/packages/community/x86_64/ario/)|
 | Lockscreen | [this](https://github.com/Unixado/betterlockscreen) fork of [betterlockscreen](https://github.com/pavanjadhaw/betterlockscreen)|
 | Wallpaper setter for X | [Nitrogen](https://wiki.archlinux.org/index.php/Nitrogen) and [feh](https://wiki.archlinux.org/index.php/feh)|
 | Dmenu replacement (Window switcher, application launcher, etc.) | [rofi](https://github.com/davatorium/rofi)|
@@ -197,7 +198,7 @@ Applications:
 | Key Binding  | Associated Action |
 | ------------- | ------------- |
 | super + alt + s | take a screenshot using gnome-screenshot | 
-| super + alt + f | launch firefox | 
-| super + alt + m | launch rhythmbox | 
+| super + alt + f | launch Firefox | 
+| super + alt + m | launch Ario | 
 
 

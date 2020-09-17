@@ -66,6 +66,8 @@ fixed-center = true
 background = ${colors.background}
 foreground = ${colors.foreground}
 
+wm-restack = bspwm
+
 
 border-size = 0
 border-color = #0D00564d
@@ -226,7 +228,6 @@ margin-top = 5
 margin-bottom = 5
 
 ; vim:ft=dosini
-
 
 [module/mpd]
 type = internal/mpd

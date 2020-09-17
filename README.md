@@ -26,7 +26,7 @@ The goal of this setup is to create a minimal distraction free work environment 
 ## Preview 
 
 <p align="center">
-  <img src="https://github.com/UNIX-Like-Man/dotfiles/blob/master/.config/SetupScreenShots/Screen4.png">|
+  <img src="https://github.com/UNIX-Like-Man/dotfiles/blob/master/.config/SetupScreenShots/Screen4.png">
 </p>
 
 |            |           |

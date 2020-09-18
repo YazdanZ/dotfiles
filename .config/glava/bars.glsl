@@ -6,11 +6,11 @@
 /* Width (in pixels) of each bar gap */
 #define BAR_GAP 2
 /* Outline color */
-#define BAR_OUTLINE #262626
+#define BAR_OUTLINE #ffffff
 /* Outline width (in pixels, set to 0 to disable outline drawing) */
 #define BAR_OUTLINE_WIDTH 0
 /* Amplify magnitude of the results each bar displays */
-#define AMPLIFY 300
+#define AMPLIFY 50
 /* Whether the current settings use the alpha channel;
    enabling this is required for alpha to function
    correctly on X11 with `"native"` transparency. */
@@ -20,7 +20,7 @@
 /* Bar color changes with height */
 #define GRADIENT (d / GRADIENT_POWER + 1)
 /* Bar color */
-#define COLOR (#3366b2 * GRADIENT)
+#define COLOR (#273238 * GRADIENT)
 /* Direction that the bars are facing, 0 for inward, 1 for outward */
 #define DIRECTION 0
 /* Whether to switch left/right audio buffers */

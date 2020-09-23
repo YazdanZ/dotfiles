@@ -186,7 +186,7 @@ super + alt + s
 
 
 # launch commonly used apps
-super + alt + {f,m}
-	{firefox,ario}
+super + alt + {f,m,t}
+	{firefox,ario,thunar}
 
 

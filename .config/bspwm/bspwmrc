@@ -6,7 +6,7 @@ $HOME/.config/polybar/launch.sh &
 bspc monitor eDP-1 -d I II III IV V VI VII VIII IX X
 bspc monitor HDMI-1 -d I II III IV V VI VII VIII IX X
 
-bspc config border_width 	1
+bspc config border_width 	0
 bspc config window_gap          15
 
 bspc config active_border_color '#273238'
@@ -23,5 +23,6 @@ bspc config single_monocle true
 
 bspc rule -a jetbrains-idea-ce desktop='^3' state=pseudo_tiled
 bspc rule -a firefox desktop='^2' 
+bspc rule -a Zathura state=tiled
 bspc rule -a Ario desktop='^10' state=pseudo_tiled
 bspc rule -a Thunar state=pseudo_tiled rectangle=750x450+0+0

@@ -1,4 +1,4 @@
-# .Dotfiles
+# dotfiles
 
 Powered by: 
 

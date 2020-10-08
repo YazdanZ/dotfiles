@@ -189,4 +189,9 @@ super + alt + s
 super + alt + {f,m,t}
 	{firefox,ario,thunar}
 
+# Distract Mode 
+super + alt + z 
+	chromium https://ieeexplore.ieee.org/document/8576929 & disown; code & disown; vim .config/bspwm/bspwmrc & disown; zathura Desktop/Norman\ S.\ Nise\ -\ Control\ Systems\ Engineering-Wiley\ \(2015\).pdf
+
+
 

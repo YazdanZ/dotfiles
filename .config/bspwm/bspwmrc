@@ -21,7 +21,6 @@ bspc config borderless_monocle   true
 bspc config gapless_monocle      false
 bspc config single_monocle true
 
-bspc rule -a jetbrains-idea-ce desktop='^4' state=pseudo_tiled
 bspc rule -a firefox desktop='^2'
 bspc rule -a chromium desktop='^3'
 bspc rule -a Zathura state=tiled

@@ -15,7 +15,6 @@ set undodir=~/.vim/undodir
 set undofile
 set incsearch
 set encoding=UTF-8
-autocmd vimenter * NERDTree
 highlight ColorColumn ctermbg=0 guibg=lightgrey
 
 if empty(glob('~/.vim/autoload/plug.vim'))
@@ -42,9 +41,7 @@ call plug#end()
 colorscheme nord
 set noshowmode
 set background=dark
-set guifont=Meslo\ Regular:h14
 let g:nord_uniform_diff_background = 1
-let g:nord_italic_comments = 1
 let g:nord_uniform_status_lines = 1
 set laststatus=2
 let g:airline_powerline_fonts = 1

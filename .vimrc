@@ -15,6 +15,7 @@ set undodir=~/.vim/undodir
 set undofile
 set incsearch
 set encoding=UTF-8
+
 highlight ColorColumn ctermbg=0 guibg=lightgrey
 
 if empty(glob('~/.vim/autoload/plug.vim'))
@@ -42,10 +43,11 @@ colorscheme nord
 set noshowmode
 set background=dark
 let g:nord_uniform_diff_background = 1
+let g:nord_italic_comments = 1
 let g:nord_uniform_status_lines = 1
 set laststatus=2
+set guifont=MesloLGS\ NF\ 11
 let g:airline_powerline_fonts = 1
-
 if executable('rg')
     let g:rg_derive_root='true'
 endif

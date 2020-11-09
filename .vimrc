@@ -23,7 +23,7 @@ set autoindent
 set expandtab
 set laststatus=2
 set guifont=MesloLGS\ NF\ 11
-set colorcolumn=80
+set colorcolumn=120
 set ttimeout ttimeoutlen=50 "added for airline speed"  
 
 if empty(glob('~/.vim/autoload/plug.vim'))
@@ -37,15 +37,14 @@ call plug#begin('~/.vim/plugged')
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'tpope/vim-fugitive'
-Plug 'vim-utils/vim-man'
-Plug 'lyuts/vim-rtags'
 Plug 'kien/ctrlp.vim'
-Plug 'mbbill/undotree'
 Plug 'arcticicestudio/nord-vim'
 Plug 'preservim/nerdtree'
 Plug 'vim-airline/vim-airline'
 Plug 'ryanoasis/vim-devicons'
 Plug 'neoclide/coc.nvim'
+Plug 'junegunn/goyo.vim'
+Plug 'morhetz/gruvbox'
 
 call plug#end()
 
@@ -82,6 +81,7 @@ if executable('rg')
     let g:rg_derive_root='true'
 endif
 
+map <C-g> :Goyo<CR>
 map <C-n> :NERDTreeToggle<CR>
 autocmd FileType nerdtree setlocal nolist
 

@@ -16,8 +16,9 @@ set undodir=~/.vim/undodir
 set undofile
 set incsearch
 set encoding=UTF-8
-
-highlight ColorColumn ctermbg=0 guibg=lightgrey
+set noshowmode
+set laststatus=2
+set guifont=MesloLGS\ NF\ 11
 
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
@@ -49,8 +50,6 @@ augroup nord-overrides
 augroup END
 
 colorscheme nord
-set noshowmode
-set background=dark
 let g:nord_cursor_line_number_background = 1
 let g:nord_uniform_diff_background = 1
 let g:nord_italic_comments = 1
@@ -59,25 +58,23 @@ let g:nord_bold_vertical_split_line = 1
 let g:nord_uniform_diff_background = 1
 let g:nord_italic = 1
 let g:nord_italic_comments = 1
-set laststatus=2
-set guifont=MesloLGS\ NF\ 11
 let g:airline_powerline_fonts = 1
-if executable('rg')
-    let g:rg_derive_root='true'
-endif
-
 let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
 let mapleader = " "
 let g:netrw_browse_split = 2
 let g:netrw_banner = 0
 let g:netrw_winsize = 25
 let g:ctrlp_use_caching = 0
-
-map <C-n> :NERDTreeToggle<CR>
-autocmd FileType nerdtree setlocal nolist
 let g:WebDevIconsUnicodeDecorateFolderNodes = 1
 let g:DevIconsEnableFoldersOpenClose = 1
 let g:DevIconsEnableFolderPatternMatching = 1
 let g:WebDevIconsUnicodeGlyphDoubleWidth = 1
 let g:webdevicons_conceal_nerdtree_brackets = 1 
 let g:airline_section_z = airline#section#create(['windowswap', '%3p%% ', 'linenr', ':%3v'])
+
+if executable('rg')
+    let g:rg_derive_root='true'
+endif
+
+map <C-n> :NERDTreeToggle<CR>
+autocmd FileType nerdtree setlocal nolist

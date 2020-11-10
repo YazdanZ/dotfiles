@@ -22,9 +22,9 @@ set noshowmode
 set autoindent
 set expandtab
 set laststatus=2
-set guifont=MesloLGS\ NF\ 11
 set colorcolumn=120
-set ttimeout ttimeoutlen=50 "added for airline speed"  
+set ttimeout ttimeoutlen=50 "added for improving airline's speed"  
+set term=kitty
 
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs

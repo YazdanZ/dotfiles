@@ -2,7 +2,7 @@
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+    source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
 # If you come from bash you might have to change your $PATH.
@@ -109,7 +109,7 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-# kitty terminal 
+# kitty terminal
 autoload -Uz compinit
 compinit
 # Completion for kitty
@@ -117,6 +117,7 @@ kitty + complete setup zsh | source /dev/stdin
 
 alias panik='rm -rf .ClassifiedInformation'
 alias distract='chromium https://ieeexplore.ieee.org/document/8576929 & disown; code & disown; vim .config/bspwm/bspwmrc & disown; zathura Desktop/Norman\ S.\ Nise\ -\ Control\ Systems\ Engineering-Wiley\ \(2015\).pdf'
-alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME' 
+alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 alias vi='vim'
 alias vimrc='/usr/bin/git --git-dir=/$HOME/MyNordVIM/ --work-tree=/$HOME'
+alias dog='cat'

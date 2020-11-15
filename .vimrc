@@ -22,7 +22,7 @@ set noshowmode
 set autoindent
 set expandtab
 set laststatus=2
-set colorcolumn=80
+" set colorcolumn=80
 set ttimeout ttimeoutlen=50 "added for improving airline's speed"
 set term=kitty
 filetype plugin on
@@ -49,6 +49,7 @@ Plug 'morhetz/gruvbox'
 Plug 'preservim/nerdcommenter'
 Plug 'jiangmiao/auto-pairs'
 Plug 'Chiel92/vim-autoformat'
+Plug 'Yggdroot/indentLine'
 
 call plug#end()
 
@@ -59,7 +60,9 @@ augroup nord-overrides
 augroup END
 
 colorscheme nord
+let g:indentLine_enabled = 0
 let g:nord_cursor_line_number_background = 1
+let g:indentLine_defaultGroup = 'SpecialKey'
 let g:nord_uniform_diff_background = 1
 let g:nord_italic_comments = 1
 let g:nord_uniform_status_lines = 1

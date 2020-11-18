@@ -50,6 +50,7 @@ Plug 'preservim/nerdcommenter'
 Plug 'jiangmiao/auto-pairs'
 Plug 'Chiel92/vim-autoformat'
 Plug 'Yggdroot/indentLine'
+Plug 'Valloric/YouCompleteMe'
 
 call plug#end()
 
@@ -83,6 +84,15 @@ let g:DevIconsEnableFolderPatternMatching = 1
 let g:WebDevIconsUnicodeGlyphDoubleWidth = 1
 let g:webdevicons_conceal_nerdtree_brackets = 1
 let g:airline_section_z = airline#section#create(['windowswap', '%3p%% ', 'linenr', ':%3v'])
+
+let g:ycm_auto_hover = ''
+let g:ycm_disable_signature_help = 1
+let g:loaded_youcompleteme = 1
+let g:enable_ycm_at_startup = 0
+
+:au VimEnter * :GitGutterSignsDisable
+set completeopt-=preview
+
 " Add spaces after comment delimiters by default
 let g:NERDSpaceDelims = 1
 " " Use compact syntax for prettified multi-line comments

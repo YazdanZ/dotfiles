@@ -22,7 +22,7 @@ set noshowmode
 set autoindent
 set expandtab
 set laststatus=2
-" set colorcolumn=80
+set colorcolumn=80
 set ttimeout ttimeoutlen=50 "added for improving airline's speed"
 set term=kitty
 filetype plugin on
@@ -83,8 +83,6 @@ let g:DevIconsEnableFolderPatternMatching = 1
 let g:WebDevIconsUnicodeGlyphDoubleWidth = 1
 let g:webdevicons_conceal_nerdtree_brackets = 1
 let g:airline_section_z = airline#section#create(['windowswap', '%3p%% ', 'linenr', ':%3v'])
-" let g:formatterpath = ['/usr/bin/astyle']
-
 " Add spaces after comment delimiters by default
 let g:NERDSpaceDelims = 1
 " " Use compact syntax for prettified multi-line comments

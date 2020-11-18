@@ -1,0 +1,22 @@
+{
+    "git.addedSign.hlGroup": "GitGutterAdd",
+    "git.changedSign.hlGroup": "GitGutterChange",
+    "git.removedSign.hlGroup": "GitGutterDelete",
+    "git.topRemovedSign.hlGroup": "GitGutterDelete",
+    "git.changeRemovedSign.hlGroup": "GitGutterChangeDelete",
+    "git.addedSign.text": "▎",
+    "git.changedSign.text": "▎",
+    "git.removedSign.text": "▎",
+    "git.changeRemovedSign.text": "▶",
+    "git.topRemovedSign.text": "◥",
+    "diagnostic.errorSign": "⨉",
+    "diagnostic.warningSign": "⚠",
+    "diagnostic.infoSign": "ℹ",
+    "diagnostic.hintSign": "➤",
+    "python.autoComplete.addBrackets": true,
+    "python.autoComplete.extraPaths": true,
+    "python.linting.enabled": true,
+    "coc.preferences.formatOnSaveFiletypes": ["*.py"],
+    "python.jediEnabled": false
+}
+

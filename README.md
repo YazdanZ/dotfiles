@@ -66,12 +66,12 @@ An initial minimal installation of the operating system is recommended. This mea
 Some fonts will need to be installed to achieve the same results as in the screenshots.<br/>
 `Free Sans Regular`<br/>
 `ttf-nerd-fonts-symbols`<br/>
-`Meslo Nerd Font`<br/>
+`FiraCode Nerd Font`<br/>
 `ttf-font-awesome`<br/>
 
 * The default font used globally in GTK and qt5 applications as well as in the polybar bar is the `Free Sans Regular` font. This font could be found in the `gnu-free-fonts` package available in most distribution official repositories. 
 
-* The terminal emulator (kitty) uses the following fonts for symbols and text respectively : `ttf-nerd-fonts-symbols`and [Meslo Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Meslo).
+* The terminal emulator (kitty) and Vim use the following fonts for text, symbols, icons and powerline glyphs: `ttf-nerd-fonts-symbols`and [FiraCode Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode).
 
 * Polybar requires `ttf-font-awesome`to display bar glyphs.
 
@@ -178,8 +178,18 @@ Note: Many people use [GNU Stow](https://www.gnu.org/software/stow/) which is al
 *** 
 
 # Installation 
-//TODO
+The best way of installing dotfiles is to copy files or part of the files that you like into their respective directories. <br/>
+But if you want to install them all of once, first make sure you have all the dependencies listed above. Then: 
+```
+mv ~/.config ~/.config-bak
+mv ~/.bash_profile ~/.bash_profile-bak
+mkdir -p ~/.config/ ~/.dotfiles/ 
+echo 'alias dot="/usr/bin/git --git-dir=$HOME/.dotfiles/dotfiles/ --work-tree=$HOME"' >> $HOME/.bashrc 
+source ~/.bashrc && mv ~/.bashrc ~/.bashrc-bak
+echo ".dotfiles/dotfiles" >> .gitignore
+git clone --bare https://github.com/Unixado/dotfiles.git $HOME/.dotfiles/dotfiles
+dot checkout
+dot config --local status.showUntrackedFiles no
+```
 
 ***
-
-# Polybar 

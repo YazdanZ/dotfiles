@@ -191,5 +191,3 @@ git clone --bare https://github.com/Unixado/dotfiles.git $HOME/.dotfiles/dotfile
 dot checkout
 dot config --local status.showUntrackedFiles no
 ```
-
-***

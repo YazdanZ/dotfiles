@@ -134,3 +134,26 @@ alias wget="wget -c"
 alias ping='ping -c 5'
 alias fastping='ping -c 100 -s.2'
 alias ports='netstat -tulanp'
+
+# Prints disk usage in human readable form
+alias d="du -sh"
+
+# Clear the screen of your clutter
+alias c="clear"
+alias cl="clear;ls;pwd"
+
+# GREP Motifications
+alias grep="grep --color"
+alias grepp="grep -P --color"
+
+# Json tools (pipe unformatted to these to nicely format the JSON)
+alias json="python -m json.tool"
+alias jsonf="python -m json.tool"
+
+# # Edit shortcuts for config files
+alias sshconfig="${EDITOR:-nano} ~/.ssh/config"
+alias bashrc="${EDITOR:-nano} +120 ~/.bashrc && source ~/.bashrc && echo Bash config edited and reloaded."
+
+# # SSH helper
+alias sshclear="rm ~/.ssh/multiplex/* -f && echo SSH connection cache cleared;"
+alias sshlist="echo Currently open ssh connections && echo && l ~/.ssh/multiplex/"

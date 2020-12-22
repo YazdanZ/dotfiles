@@ -36,6 +36,8 @@ endif
 call plug#begin('~/.vim/plugged')
 
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+Plug 'lervag/vimtex'
+Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex'  }
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'tpope/vim-fugitive'
 Plug 'kien/ctrlp.vim'
@@ -84,6 +86,13 @@ let g:DevIconsEnableFolderPatternMatching = 1
 let g:WebDevIconsUnicodeGlyphDoubleWidth = 1
 let g:webdevicons_conceal_nerdtree_brackets = 1
 let g:airline_section_z = airline#section#create(['windowswap', '%3p%% ', 'linenr', ':%3v'])
+
+let g:tex_flavor='latex'
+let g:vimtex_view_method='zathura'
+let g:vimtex_quickfix_mode=0
+set conceallevel=1
+let g:tex_conceal='abdmg'
+let g:livepreview_previewer = 'zathura'
 
 let g:ycm_auto_hover = ''
 let g:ycm_disable_signature_help = 1

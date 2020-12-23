@@ -191,3 +191,8 @@ git clone --bare https://github.com/Unixado/dotfiles.git $HOME/.dotfiles/dotfile
 dot checkout
 dot config --local status.showUntrackedFiles no
 ```
+
+***
+### Submissions to [r/unixporn](https://www.reddit.com/r/unixporn/)
+* [Camus edition](https://www.reddit.com/r/unixporn/comments/kizf6z/bspwm_misty_heights_with_nicer_vim_camus_editions/)
+* [Sartre edition](https://www.reddit.com/r/unixporn/comments/izn1yx/bspwm_misty_heights/)

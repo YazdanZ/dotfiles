@@ -19,7 +19,7 @@ The goal of this setup is to create a minimal distraction free work environment 
 ### Preview 
 
 <p align="center">
-  <img src="https://github.com/Unixado/dotfiles/blob/master/.preview/Screen4.png">
+  <img src="https://raw.githubusercontent.com/Unixado/dotfiles/master/.preview/Screen4.png">
 </p>
 
 |            |           |

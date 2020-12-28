@@ -24,8 +24,8 @@ The goal of this setup is to create a minimal distraction free work environment 
 
 |            |           |
 | ------------- | ------------- |
-| <img src="https://github.com/Unixado/dotfiles/blob/master/.preview/Screen5.png"> |   <img src="https://github.com/Unixado/dotfiles/blob/master/.preview/Screen3.png">|
-| <img src="https://github.com/Unixado/dotfiles/blob/master/.preview/Screen2.png"> |   <img src="https://github.com/Unixado/dotfiles/blob/master/.preview/Screen7.png"> | 
+| <img src="https://raw.githubusercontent.com/Unixado/dotfiles/master/.preview/Screen5.png"> |   <img src="https://raw.githubusercontent.com/Unixado/dotfiles/master/.preview/Screen3.png">|
+| <img src="https://raw.githubusercontent.com/Unixado/dotfiles/master/.preview/Screen2.png"> |   <img src="https://raw.githubusercontent.com/Unixado/dotfiles/master/.preview/Screen7.png"> | 
 
 *** 
 

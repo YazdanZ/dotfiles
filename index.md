@@ -17,13 +17,13 @@ The goal of this setup is to create a minimal distraction free work environment 
 ### Preview 
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Unixado/dotfiles/master/.preview/Screen4.png">
+  <img src="https://raw.githubusercontent.com/Unixado/dotfiles/camus/.preview/Screen4.png">
 </p>
 
 |            |           |
 | ------------- | ------------- |
-| <img src="https://raw.githubusercontent.com/Unixado/dotfiles/master/.preview/Screen5.png"> |   <img src="https://raw.githubusercontent.com/Unixado/dotfiles/master/.preview/Screen3.png">|
-| <img src="https://raw.githubusercontent.com/Unixado/dotfiles/master/.preview/Screen2.png"> |   <img src="https://raw.githubusercontent.com/Unixado/dotfiles/master/.preview/Screen7.png"> | 
+| <img src="https://raw.githubusercontent.com/Unixado/dotfiles/camus/.preview/Screen5.png"> |   <img src="https://raw.githubusercontent.com/Unixado/dotfiles/camus/.preview/Screen3.png">|
+| <img src="https://raw.githubusercontent.com/Unixado/dotfiles/camus/.preview/Screen2.png"> |   <img src="https://raw.githubusercontent.com/Unixado/dotfiles/camus/.preview/Screen7.png"> | 
 
 *** 
 

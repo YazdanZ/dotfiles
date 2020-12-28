@@ -1,6 +1,4 @@
-# dotfiles
-
-**Powered by:**
+### **Powered by:**
 
 ![](https://img.shields.io/badge/-Gnu-informational?style=for-the-badge&logo=GNU&logoColor=white&color=A42E2B)
 ![](https://img.shields.io/badge/-Linux-informational?style=for-the-badge&logo=Linux&logoColor=white&color=000000)

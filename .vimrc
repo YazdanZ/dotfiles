@@ -22,7 +22,7 @@ set noshowmode
 set autoindent
 set expandtab
 set laststatus=2
-" set colorcolumn=80
+set colorcolumn=80
 set ttimeout ttimeoutlen=50 "added for improving airline's speed"
 set term=kitty
 filetype plugin on

@@ -28,7 +28,10 @@ The goal of this setup is to create a minimal distraction free work environment 
 | <img src="https://github.com/Unixado/dotfiles/blob/camus/.preview/Screen2.png"> |   <img src="https://github.com/Unixado/dotfiles/blob/camus/.preview/Screen7.png"> | 
 
 *** 
-
+## Nord Wallpapers
+The wallpaper shown in preview images: [here](https://github.com/YazdanZ/dotfiles/blob/e09482487a18ea6370daca052c17125076d85074/.config/wallpaper/wall.jpg) <br/>
+The following repositories contains a multitude of Nord-themed wallpapers: [[1](https://github.com/dxnst/nord-backgrounds), [2](https://github.com/dxnst/nord-wallpapers)]
+*** 
 # Dependencies
 
 ## Operating System

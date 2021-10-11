@@ -19,13 +19,13 @@ The goal of this setup is to create a minimal distraction free work environment 
 ### Preview 
 
 <p align="center">
-  <img src="https://github.com/Unixado/dotfiles/blob/camus/.preview/Screen4.png">
+  <img src="https://github.com/yazdanz/dotfiles/blob/camus/.preview/Screen4.png">
 </p>
 
 |            |           |
 | ------------- | ------------- |
-| <img src="https://github.com/Unixado/dotfiles/blob/camus/.preview/Screen5.png"> |   <img src="https://github.com/Unixado/dotfiles/blob/camus/.preview/Screen3.png">|
-| <img src="https://github.com/Unixado/dotfiles/blob/camus/.preview/Screen2.png"> |   <img src="https://github.com/Unixado/dotfiles/blob/camus/.preview/Screen7.png"> | 
+| <img src="https://github.com/yazdanz/dotfiles/blob/camus/.preview/Screen5.png"> |   <img src="https://github.com/yazdanz/dotfiles/blob/camus/.preview/Screen3.png">|
+| <img src="https://github.com/yazdanz/dotfiles/blob/camus/.preview/Screen2.png"> |   <img src="https://github.com/yazdanz/dotfiles/blob/camus/.preview/Screen7.png"> | 
 
 *** 
 ## Nord Wallpapers
@@ -56,7 +56,7 @@ An initial minimal installation of the operating system is recommended. This mea
 | Music Player Server | [MPD](https://wiki.archlinux.org/index.php/Music_Player_Daemon)|
 | MPD client (Cli) | [ncmpcpp](https://wiki.archlinux.org/index.php/Ncmpcpp)|
 | MPD client (Gui) | [Ario](https://www.archlinux.org/packages/community/x86_64/ario/)|
-| Lockscreen | [this](https://github.com/Unixado/betterlockscreen) fork of [betterlockscreen](https://github.com/pavanjadhaw/betterlockscreen)|
+| Lockscreen | [this](https://github.com/yazdanz/betterlockscreen) fork of [betterlockscreen](https://github.com/pavanjadhaw/betterlockscreen)|
 | Wallpaper setter for X | [Nitrogen](https://wiki.archlinux.org/index.php/Nitrogen) and [feh](https://wiki.archlinux.org/index.php/feh)|
 | Dmenu replacement (Window switcher, application launcher, etc.) | [rofi](https://github.com/davatorium/rofi)|
 | Audio visualizer | [Glava](https://github.com/jarcode-foss/glava)|
@@ -190,7 +190,7 @@ mkdir -p ~/.config/ ~/.dotfiles/
 echo 'alias dot="/usr/bin/git --git-dir=$HOME/.dotfiles/dotfiles/ --work-tree=$HOME"' >> $HOME/.bashrc 
 source ~/.bashrc && mv ~/.bashrc ~/.bashrc-bak
 echo ".dotfiles/dotfiles" >> .gitignore
-git clone --bare https://github.com/Unixado/dotfiles.git $HOME/.dotfiles/dotfiles
+git clone --bare https://github.com/yazdanz/dotfiles.git $HOME/.dotfiles/dotfiles
 dot checkout
 dot config --local status.showUntrackedFiles no
 ```
